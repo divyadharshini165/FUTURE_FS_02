@@ -1,0 +1,27 @@
+.navbar {
+  background: #1e293b;
+  color: white;
+  padding: 14px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 22px;
+}
+
+.nav-links a {
+  margin-right: 18px;
+  font-size: 16px;
+  color: #e5e7eb;
+}
+
+.nav-links a:hover {
+  color: #38bdf8;
+}
+
+.logout-btn {
+  background: #ef4444;
+  color: white;
+}

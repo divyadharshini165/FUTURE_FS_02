@@ -1,0 +1,26 @@
+.cart-item {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-item h3 {
+  font-size: 18px;
+}
+
+.qty-btn {
+  background: #e5e7eb;
+  margin: 0 5px;
+}
+
+.checkout-btn {
+  background: #16a34a;
+  color: white;
+  font-size: 17px;
+  width: 100%;
+  margin-top: 20px;
+}

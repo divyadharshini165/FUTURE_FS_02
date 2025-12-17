@@ -1,0 +1,51 @@
+.detail-container {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.detail-container img {
+  width: 350px;
+  height: 350px;
+  object-fit: contain;
+}
+
+.detail-info {
+  flex: 1;
+}
+
+.detail-info h1 {
+  font-size: 26px;
+}
+
+.price {
+  font-size: 22px;
+  color: #2563eb;
+  margin: 10px 0;
+}
+
+.desc {
+  margin: 15px 0;
+  color: #444;
+}
+
+.qty-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.qty-box button {
+  font-size: 20px;
+  padding: 5px 15px;
+}
+
+.add-btn {
+  background: #16a34a;
+  color: white;
+  font-size: 18px;
+  padding: 12px 20px;
+}
